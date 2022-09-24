@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
 }
 
-
 html,
 body {
   box-sizing: border-box;
@@ -23,12 +22,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 85%;
   background: #fff;
   margin: auto;
-}
-.header1 {
-  display: none;
+  padding-top: 15px;
 }
 
 .headerBrand {
@@ -48,7 +45,6 @@ body {
 .imgdiv {
   background-image: url("assets/header-shapes-mobile@2x.svg");
   position: relative;
-  margin: 15px;
   width: 100%;
   height: auto;
   margin: auto;
@@ -64,7 +60,6 @@ body {
   max-width: 90%;
   margin-top: 25px;
   padding: 5px;
-  margin-right: 40px;
   margin: auto;
 }
 
@@ -96,15 +91,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  margin-top: -10px;
   margin: auto;
 }
 
 .connect-me {
   display: flex;
   justify-content: flex-start;
-  margin-left: -40px;
-  margin-bottom: 60px;
   margin: auto;
 }
 
@@ -123,12 +115,10 @@ body {
 }
 
 .social-icons.github {
-  margin-top: 0;
   width: 57%;
   margin-top: 5px;
 }
 
 .social-icons.discus {
-  margin-top: 0;
   margin-top: 5px;
 }
