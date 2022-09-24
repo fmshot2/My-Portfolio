@@ -470,7 +470,7 @@ input {
   color: #172b4d;
 }
 
-.resume  button {
+.resume button {
   display: flex;
   flex-direction: row;
   border: 1px solid #dfe1e6;
