@@ -252,11 +252,12 @@ h3 {
 }
 
 .my-languages {
-  display: flex;
-  justify-content: flex-start;
+  /* display: flex;
+  justify-content: flex-start; */
 }
 
 .lang1 {
+  float: left;
   padding: 7px;
   background-color: #ebebff;
   border-radius: 20%;
