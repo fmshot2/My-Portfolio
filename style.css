@@ -273,24 +273,6 @@ h3 {
   margin-left: -40px;
 }
 
-::placeholder {
-  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #b3bac5;
-}
-
-input {
-  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #172b4d;
-}
-
 .resume button {
   display: flex;
   flex-direction: row;
@@ -456,6 +438,15 @@ input {
   color: #ebebff;
 }
 
+input {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+}
+
 .input-for-name {
   background-color: #fff;
   height: 50px;
@@ -483,15 +474,6 @@ input {
   line-height: 24px;
   color: #b3bac5;
   padding: 20px;
-}
-
-input {
-  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #172b4d;
 }
 
 .mobile-form-button {
