@@ -3,8 +3,7 @@
 
 My Complete Portfolio
 
-This project is created to show my personal Portfolio 
-and connect me to employers and clients.
+This project is created to show my personal Portfolio and selected works
 
 
 ## Built With
@@ -17,7 +16,8 @@ not yet available
 
 ## Getting Started
 
-Download the code or clone the repo to your local PC.
+Download the code or clone the repo to your local PC. Click on the index.html to open it on the browser.
+Thanks.
 
 
 ### Prerequisites
@@ -25,9 +25,9 @@ Download the code or clone the repo to your local PC.
 
 ## Author
 
-- GitHub: [@lolashot](https://github.com/lolashot)
-- Twitter: [@lola_wealthy](https://twitter.com/@lola_wealthy)
-- LinkedIn: [shotola-ololade-946b95241/](https://www.linkedin.com/in/shotola-ololade-946b95241/)
+- GitHub: [@fmshot2](https://github.com/fmshot2)
+- Twitter: [@_fmshot_](https://twitter.com/@_fmshot_)
+- LinkedIn: [shotola-femi/](https://www.linkedin.com/in/shotola-femi/)
 
 
 ## Show your support
@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Shout out to Microverse Technologies
+Thumbs up Microverse Technologies
 
 ## 📝 License
 
