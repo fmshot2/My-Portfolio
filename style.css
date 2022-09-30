@@ -66,7 +66,7 @@ h3 {
 .imgdiv {
   background-image: url("assets/header-shapes-mobile@2x.svg");
   position: relative;
-  width: 105%;
+  width: 100%;
   height: auto;
   margin: auto;
   background-size: cover;
@@ -148,10 +148,6 @@ h3 {
   align-items: center;
 }
 
-.lower-card-parent {
-  margin-top: -200px;
-}
-
 .card {
   border: 0.1px solid #fff;
   border-radius: 8px;
@@ -162,12 +158,12 @@ h3 {
   background: white;
 }
 
-.card-div-1 {
-  margin-top: 30px;
+.card-div {
+  margin-top: 5.1em;
 }
 
-.card-div {
-  margin-top: -30px;
+.desktop-img {
+  display: none;
 }
 
 .projects .card .top-img {
@@ -260,9 +256,12 @@ h3 {
 }
 
 .lang1 {
-  padding: 7px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 17px;
+  padding-left: 17px;
   background-color: #ebebff;
-  border-radius: 20%;
+  border-radius: 10%;
   color: #6070ff;
   margin: 8px;
 }
@@ -302,19 +301,16 @@ h3 {
 
 .about {
   border-top-right-radius: 70px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   background-color: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5.1em;
 }
 
 .about-head {
   display: flex;
   flex-direction: column;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   max-width: 90%;
   margin: auto;
 }
@@ -500,4 +496,84 @@ input {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   color: #fff;
   background-color: #6070ff;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .banner-title {
+    max-width: 70%;
+  }
+
+  .card:hover {
+    border: 2px solid #A7AEFF;
+  }
+
+  .card-div{
+    display: flex;
+    justify-content: center;
+    line-height: 1.7;
+  }
+
+  .card-div-desktop {
+    flex-direction: row-reverse;
+  }
+
+  .card-div-img {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+
+  .desktop-img {
+    display: block;
+  }
+
+  .card-div-body {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .headlineText {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 1.9;
+  }
+
+  .my-languages {
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+
+  .about-first-child {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-head {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .contact-form-parent {
+    width: 50%;
+    align-self:center;
+  }
+
+  .mobile-form-button {
+    margin: auto;
+  }
+
+  .input-for-textarea {
+    margin-bottom: 1em;
+  }
+
 }
