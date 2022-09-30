@@ -49,6 +49,10 @@ h3 {
   list-style-type: none;
 }
 
+.header-items {
+  display: none;
+}
+
 .headerBrand {
   text-decoration: none;
   font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -395,7 +399,7 @@ h3 {
 }
 
 .contact-form {
-  background-image: url(assets/shapes/contact-shapes.png);
+  background-image: url(assets/shapes/contact-form-background-shape-desktop.png);
   background-size: cover;
   padding: 40px;
   width: 100%;
@@ -406,6 +410,7 @@ h3 {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-repeat: repeat-x;
 }
 
 .contact-form-parent {
@@ -501,8 +506,49 @@ input {
 
 @media only screen and (min-width: 768px) {
 
+  .header {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header-items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .headerBrand {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 20px;
+    color: #6070ff;
+    padding-right: 1.5em;
+  }
+
+  .header-items .headerBrand {
+    font-weight: 400;
+    font-size: 17px;
+  }
+
   .banner-title {
     max-width: 70%;
+    margin-bottom: 3em;
+  }
+
+  .banner-title-headline {
+    max-width: 70%;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 82px;
+  }
+
+  .banner-title-text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
   }
 
   .card:hover {
@@ -537,16 +583,38 @@ input {
     padding: 10px;
   }
 
+  .main-title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
   .headlineText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     margin-top: 10px;
     margin-bottom: 5px;
-    line-height: 1.9;
   }
 
   .my-languages {
     margin-top: 8px;
     margin-bottom: 25px;
   }
+
+.languages-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
 
   .about-first-child {
     display: flex;
@@ -561,6 +629,71 @@ input {
   .about-head {
     width: 50%;
     margin-top: 0;
+  }
+
+  .about-head section {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  .about-head section ul {
+    padding-top: 38px;
+    padding-bottom: 50px;
+    margin-right: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .about-head section ul img {
+    width: 40%;
+  }
+
+  .about-head section ul li {
+    padding-top: 9px;    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .right-upper-rectangle {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    width: 100px;
+  }
+
+  .right-lower-circle {
+    position: absolute;
+    left: 80%;
+    top: 74%;
+    width: 50px;
+
+  }
+
+  .half-circle {
+    position: absolute;
+    left: 80%;
+    top: 15%;
+    width: 130px;
+  }
+
+  .left-dot {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 30px;
+  }
+
+  .left-rectangle {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 60px;
   }
 
   .contact-form-parent {
