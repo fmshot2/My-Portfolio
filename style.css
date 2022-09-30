@@ -162,6 +162,9 @@ h3 {
   background: white;
 }
 
+.card:hover {
+  transform: scale(1.009);
+}
 .card-div {
   margin-top: 5.1em;
 }
