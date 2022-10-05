@@ -12,13 +12,12 @@ This project is created to show my personal Portfolio and selected works
 
 ## Live Demo (if available)
 
-not yet available
+https://fmshot2.github.io/My-Portfolio/
 
 ## Getting Started
 
-Download the code or clone the repo to your local PC. Click on the index.html to open it on the browser.
+Visit https://fmshot2.github.io/My-Portfolio/ to see the live version of the project. Alternatively you can download the code or clone the repo to your local PC. Click on the index.html to open it on the browser.
 Thanks.
-
 
 ### Prerequisites
 - text editor
