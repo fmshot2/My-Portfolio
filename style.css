@@ -603,10 +603,7 @@ input {
     margin-top: -20px;
   }
 
-  .navigate_li {
-    display: flex;
-    justify-content: space-around;
-  }
+  
 
   .headerBrand {
     font-weight: 900;
