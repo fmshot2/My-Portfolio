@@ -3,14 +3,14 @@
 
 My Complete Portfolio
 
-This project is created to show my personal Portfolio and selected works
+This project is created to show my personal Portfolio and some selected works
 
 
 ## Built With
 
 - HTML and CSS.
 
-## Live Demo (if available)
+## Live Demo
 
 https://fmshot2.github.io/My-Portfolio/
 
@@ -21,6 +21,7 @@ Thanks.
 
 ### Prerequisites
 - text editor
+- browser
 
 ## Author
 
@@ -35,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thumbs up Microverse Technologies
+Thumbs up to Microverse Technologies
 
 ## 📝 License
 
