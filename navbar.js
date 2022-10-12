@@ -11,8 +11,8 @@ hamburger.addEventListener('click', () => {
   headerBrand.classList.toggle('greyed_out');
 });
 
-const projects = document.querySelector('#portfolio');
-projects.addEventListener('click', () => {
+const portfolio = document.querySelector('#portfolio');
+portfolio.addEventListener('click', () => {
   const hamburger = document.querySelector('.hamburger');
   const headerItems = document.querySelector('.header-items');
   const imgdiv = document.querySelector('.imgdiv');
