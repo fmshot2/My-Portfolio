@@ -3,31 +3,31 @@
 
 My Complete Portfolio
 
-This project is created to show my personal Portfolio 
-and connect me to employers and clients.
+This project is created to show my personal Portfolio and some selected works
 
 
 ## Built With
 
 - HTML and CSS.
 
-## Live Demo (if available)
+## Live Demo
 
-not yet available
+https://fmshot2.github.io/My-Portfolio/
 
 ## Getting Started
 
-Download the code or clone the repo to your local PC.
-
+Visit https://fmshot2.github.io/My-Portfolio/ to see the live version of the project. Alternatively you can download the code or clone the repo to your local PC. Click on the index.html to open it on the browser.
+Thanks.
 
 ### Prerequisites
 - text editor
+- browser
 
 ## Author
 
-- GitHub: [@lolashot](https://github.com/lolashot)
-- Twitter: [@lola_wealthy](https://twitter.com/@lola_wealthy)
-- LinkedIn: [shotola-ololade-946b95241/](https://www.linkedin.com/in/shotola-ololade-946b95241/)
+- GitHub: [@fmshot2](https://github.com/fmshot2)
+- Twitter: [@_fmshot_](https://twitter.com/@_fmshot_)
+- LinkedIn: [shotola-femi/](https://www.linkedin.com/in/shotola-femi/)
 
 
 ## Show your support
@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Shout out to Microverse Technologies
+Thumbs up to Microverse Technologies
 
 ## 📝 License
 
