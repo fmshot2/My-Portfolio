@@ -53,20 +53,6 @@ h3 {
   display: none;
 }
 
-/* header .header-items.active {
-  position: absolute;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  z-index: 100;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #6070ff;
-  mix-blend-mode: multiply;
-  margin-top: 0;
-} */
-
 header .header-items.active {
   position: absolute;
   left: 0;
@@ -125,8 +111,6 @@ header .header-items li a {
 .greyed_out {
   filter: blur(3px);
 }
-
-/* ended */
 
 .headerBrand {
   text-decoration: none;
@@ -601,9 +585,9 @@ input {
 
   .header-items {
     display: block;
-    margin-top: -20px;
+    margin-top: -90px;
   }
-  
+
   .navigate_li {
     display: flex;
     justify-content: space-around;
