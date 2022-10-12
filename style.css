@@ -774,8 +774,7 @@ input {
     text-align: center;
     background-image: url(assets/femi/Ellipse3.png), url(assets/femi/Rectangle4.png), url(assets/femi/Rectangle7.png), url(assets/femi/Ellipse5.png), url(assets/femi/Ellipse13.png), url(assets/femi/Ellipse12.png), url(assets/femi/Rectangle6.png), url(assets/femi/Ellipse11.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: 94% 6.5%, 91% 1%, 4% 50%, 4% 52.5%, 86% 73%, 25% 5%,
-      13% 95%, 15% 97%;
+    background-position: 94% 6.5%, 91% 1%, 4% 50%, 4% 52.5%, 86% 73%, 25% 5%, 13% 95%, 15% 97%;
     background-size: 100px, 90px, 70px, 30px;
     z-index: 5;
   }
