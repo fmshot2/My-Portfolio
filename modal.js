@@ -6,7 +6,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omniadipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    featuredimage: './assets/desktop-images/SnapshootPortfolio.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -17,7 +17,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praerem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnisentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    featuredimage: './assets/desktop-images/SnapshootPortfolio1.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -28,7 +28,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerumrem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omni laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    featuredimage: './assets/desktop-images/SnapshootPortfolio2.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -39,7 +39,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sinrem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnit nemo omnis voluptate exercitationem eius?',
-    featuredimage: './assets/desktop-images/SnapshootPortfolio3.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -50,7 +50,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptatrem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnie exercitationem eius?',
-    featuredimage: './assets/Snapshoot.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -61,7 +61,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eirem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnius?',
-    featuredimage: './assets/snapshoot1.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -72,7 +72,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnirem ipsum dolor sit amet consectetur adipisicirem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omning elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    featuredimage: './assets/snapshoot2.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -83,7 +83,7 @@ const projects = [
     technologiess: 'css',
     technologiesss: 'javaScript',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eirem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnius?',
-    featuredimage: './assets/snapshoot3.png',
+    featuredimage: './assets/pix5.png',
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
@@ -94,7 +94,6 @@ const modalContainer = document.getElementById('modal-container');
 
 const nodeList = document.querySelectorAll('.open-modal');
 nodeList.forEach((element) => element.addEventListener('click', (event) => {
-  console.log('ffff', event);
   const found = projects.find((element) => element.id === event.target.id);
   document.getElementById('name').innerHTML = found.name;
   document.getElementById('technology1').innerHTML = found.technologies;
