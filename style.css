@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.mainpage {
+  background: #f7f7f9;
+  border-bottom-left-radius: 65px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  list-style-type: none;
+}
+
+.headerBrand {
+  text-decoration: none;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.icon {
+  color: #6070ff;
+}
+
+.imgdiv {
+  background-image: url("assets/header-shapes-mobile@2x.svg");
+  position: relative;
+  width: 105%;
+  height: auto;
+  margin: auto;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.shapes {
+  position: absolute;
+  width: 100%;
+}
+
+.banner-title {
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-title-headline {
+  width: 90%;
+  margin-top: 70px;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.banner-title-text {
+  width: 90%;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 4px;
+}
+
+.banner-connect-text {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  margin: auto;
+  padding: 15px;
+}
+
+.connect-me {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  list-style-type: none;
+}
+
+.social-icons {
+  margin: 9px;
+}
+
+.social-icons.twitter {
+  margin-top: 5px;
+  width: 60%;
+}
+
+.social-icons.instagram {
+  margin-top: 0;
+  width: 68%;
+}
+
+.social-icons.github {
+  width: 57%;
+  margin-top: 5px;
+}
+
+.social-icons.discus {
+  margin-top: 5px;
+}
