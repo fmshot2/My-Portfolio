@@ -65,6 +65,7 @@ header .header-items.active {
   background-color: #6070ff;
   mix-blend-mode: multiply;
   margin-top: 0;
+  height: 100%;
 }
 
 .navigate_li {
@@ -105,7 +106,7 @@ header .header-items li a {
   background-position: center;
   margin-top: 3px;
   margin-right: 17px;
-  z-index: 300;
+  z-index: 100;
 }
 
 .greyed_out {
@@ -134,6 +135,16 @@ header .header-items li a {
   margin: auto;
   background-size: cover;
   margin-top: 50px;
+}
+
+.imgdiv.active {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  margin-top: 0;
+  pointer-events: none;
 }
 
 .banner-title {
@@ -212,6 +223,16 @@ header .header-items li a {
   display: grid;
   grid-template-rows: repeat(4, 4fr);
   align-items: center;
+}
+
+.projects.active {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  margin-top: 0;
+  pointer-events: none;
 }
 
 .card {
@@ -373,6 +394,16 @@ header .header-items li a {
   margin-top: 5.1em;
 }
 
+.about.active {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  margin-top: 0;
+  pointer-events: none;
+}
+
 .about-head {
   display: flex;
   flex-direction: column;
@@ -466,6 +497,16 @@ header .header-items li a {
   background-color: #6070ff;
   position: relative;
   border-radius: 5px 0 0 0;
+}
+
+.contact-form.active {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  margin-top: 0;
+  pointer-events: none;
 }
 
 .image {
