@@ -1,0 +1,249 @@
+#modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#modal {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  animation-name: animatemodal;
+  animation-duration: 0.4s;
+  height: 95%;
+  overflow-y: scroll;
+  width: 60%;
+}
+
+#close-btn {
+  cursor: pointer;
+  font-size: 3rem;
+  color: #f00;
+}
+
+.modal-headers {
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.modal-headers {
+  margin: auto;
+}
+
+.modal-skills {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-skills .theli {
+  margin: 5px;
+}
+
+.modal-body {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+.headlineText {
+  width: 60%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.headlineList {
+  width: 35%;
+}
+
+.modal-lang1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-lang1 .lang1 {
+  font-size: 16px;
+  padding: 10px;
+  margin: 3px;
+}
+
+.flex-modal-button {
+  display: flex;
+}
+
+.desktop-modal-btn {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+  display: flex;
+  border: 1px solid #6070ff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px
+}
+
+.desktop-modal-btn:hover {
+  border: 2px solid #6070ff;
+  padding: 6px;
+  margin: 7px;
+}
+
+.desktop-modal-btn img {
+  margin: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.card-modal-child-img {
+  margin: auto;
+  text-align: center;
+}
+
+.card-modal-child-img img {
+  width: 100%;
+  margin: auto;
+  height: 470px;
+}
+
+.modal-close-icon {
+  cursor: pointer;
+  width: 15px;
+  height: 12px;
+  margin-top: 3px;
+}
+
+.modal-skills {
+  margin: -12px;
+  padding: 0;
+}
+
+.mobile-btn-parent {
+  padding: 20px;
+  width: 50%;
+  margin-right: 0;
+}
+
+/* .mobile-btn-parent a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+} */
+
+.desktop-modal-btn-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+@keyframes animatemodal {
+  from {
+    top: -300%;
+    opacity: 0;
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 580px) {
+  #modal {
+    position: relative;
+    width: 87%;
+    margin-left: -10px;
+  }
+
+  .card-modal-child-img img {
+    width: 97%;
+    margin: auto;
+    height: 200px;
+  }
+
+  .flex-modal-button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .desktop-modal-btn {
+    font-size: 11px;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 6px
+  }
+
+  .desktop-modal-btn {
+    width: 100%;
+  }
+
+  .desktop-modal-btn p{
+    font-size: 9px;
+  }
+
+  .desktop-modal-btn img{
+    width: 12px;
+    margin: 3px;
+  }
+
+  .mobile-btn-parent {
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    border: 0.1px solid #6070ff;
+    border-radius: 5px;
+    color: #6070ff;
+    background-color: #fff;
+    font-size: medium;
+  }
+
+  .mobile-btn-parent a {
+    text-decoration: none;
+  }
+
+  .modalicon1 {
+    width: 19px;
+    padding: 5px;
+  }
+
+  .headlineText {
+    width: 55%;
+    padding-top: 20px;
+  }
+  
+  .headlineList {
+    width: 45%;
+    padding-top: 20px;
+  }
+
+  .modal-lang1 .lang1 {
+    font-size: 16px;
+    padding: 5px;
+    margin: 2px;
+  }
+}
