@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 #modal-container {
   display: none;
   position: fixed;
@@ -180,11 +182,11 @@
   }
 
   .desktop-modal-btn p {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .desktop-modal-btn img {
-    width: 12px;
+    width: 15px;
     margin: 3px;
   }
 
