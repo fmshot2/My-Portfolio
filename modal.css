@@ -38,15 +38,11 @@
   width: 100%;
 }
 
-
-.modal-headers {
-  margin: auto;
-}
-
 .modal-skills {
   display: flex;
   align-items: center;
-  padding: 20px;
+  margin: -12px;
+  padding: 0;
 }
 
 .modal-skills .theli {
@@ -59,6 +55,7 @@
   flex-wrap: wrap;
   margin: 10px;
   justify-content: center;
+  width: 100%;
 }
 
 .headlineText {
@@ -96,7 +93,7 @@
   border: 1px solid #6070ff;
   justify-content: center;
   align-items: center;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
 .desktop-modal-btn:hover {
@@ -109,10 +106,6 @@
   margin: 7px;
   width: 20px;
   height: 20px;
-}
-
-.modal-body {
-  width: 100%;
 }
 
 .card-modal-child-img {
@@ -143,14 +136,6 @@
   width: 50%;
   margin-right: 0;
 }
-
-/* .mobile-btn-parent a {
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-} */
 
 .desktop-modal-btn-icon {
   width: 15px;
@@ -195,18 +180,15 @@
     font-size: 11px;
     margin: 2px;
     padding: 1px;
-    border-radius: 6px
-  }
-
-  .desktop-modal-btn {
+    border-radius: 6px;
     width: 100%;
   }
 
-  .desktop-modal-btn p{
+  .desktop-modal-btn p {
     font-size: 9px;
   }
 
-  .desktop-modal-btn img{
+  .desktop-modal-btn img {
     width: 12px;
     margin: 3px;
   }
