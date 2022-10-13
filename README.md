@@ -8,7 +8,7 @@ This project is created to show my personal Portfolio and some selected works
 
 ## Built With
 
-- HTML and CSS.
+- Html and Css and Javascript.
 
 ## Live Demo
 
