@@ -1,7 +1,7 @@
 const projects = [
   {
     id: '1',
-    name: 'ToDo tracker',
+    name: 'Todo Tracker',
     technology_one: 'html',
     technology_two: 'css',
     technology_three: 'javascript',
@@ -35,7 +35,7 @@ const projects = [
   {
     id: '4',
     name: 'Ecommerce',
-    technology_one: 'Lavell',
+    technology_one: 'Laravel',
     technology_two: 'Reat',
     technology_three: 'Ruby on rails',
     description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Omnit nemo omnis voluptate exercitationem eius?',
