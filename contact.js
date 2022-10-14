@@ -10,6 +10,6 @@ form.addEventListener('submit', (event) => {
   } else {
     text = 'email should be in lowercase';
     document.getElementById('message').innerHTML = text;
-    document.getElementById('message').style.color = 'red';
+    document.getElementById('message').style.color = 'white';
   }
 });
