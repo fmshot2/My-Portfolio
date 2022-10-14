@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/c5af90d277.js" crossorigin="anonymous"></script>
     <title>My Complete Portfolio</title>
 </head>
+
 <body>
   <div class="mainpage">
     <div class="topdiv">
@@ -32,10 +33,10 @@
                 </li>
                
                 <li>
-                    <a href="#about" class="headerBrand">About</a>
+                    <a id="about-me" href="#about" class="headerBrand">About</a>
                 </li>
                 <li>
-                    <a href="#contact" class="headerBrand">Contact</a>
+                    <a id="contact-me" href="#contact" class="headerBrand">Contact</a>
                 </li>
               </div>
             </ul>
@@ -420,13 +421,14 @@
           <p class="contact-text">if you have an application you are interested in developing,
             a feature that you need built or a project that needs coding.i'd love to help with it
           </p>
-          <form id="form" action="https://formspree.io/f/xeqdoedo" method="POST">
+          <form action="" id="id-of-form" method="POST">
             <ul>
               <li><input class="input-for-name" required placeholder="Alex Usifo" maxlength="30"
                     type="text" name="name">
               </li>
-              <li><input id="id-for-email" class="input-for-name" required placeholder="ololadeshot@gmail.com" type="email"
+              <li><input id="email-field" class="input-for-name" required placeholder="ololadeshot@gmail.com" type="email"
                     name="email">
+                    <p id="message" class="error_notification"></p>
               </li>
               <li><textarea id="msg" class="input-for-textarea" required maxlength="500" rows="15"
                     cols="133" placeholder="write your message here..." name="message"></textarea></li>
@@ -442,6 +444,10 @@
   </div>
 
   <script src="modal.js"></script>
+  <script src="contact.js"></script>
   <script src="navbar.js"></script>
+  <script type="module" src="localstorage.js"></script>
+
 </body>
+
 </html>
