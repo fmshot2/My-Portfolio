@@ -8,6 +8,7 @@ form.addEventListener('submit', (event) => {
     form.action = 'https://formspree.io/f/xqkjqrqp';
     form.submit();
   } else {
+    text = 'email should be in lowercase';
     document.getElementById('message').innerHTML = text;
     document.getElementById('message').style.color = 'red';
   }
