@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
+
 #modal-container {
   display: none;
   position: fixed;
@@ -27,8 +34,9 @@
 
 #close-btn {
   cursor: pointer;
-  font-size: 3rem;
-  color: #f00;
+  font-size: 1.5rem;
+  color: rgb(10, 8, 8);
+  margin: 0.5em;
 }
 
 .modal-headers {
@@ -38,15 +46,15 @@
   width: 100%;
 }
 
-
-.modal-headers {
-  margin: auto;
+.modal-headlineTitle {
+  margin-left: 1.1em;
 }
 
 .modal-skills {
   display: flex;
   align-items: center;
-  padding: 20px;
+  margin-left: 1.5em;
+  padding: 0;
 }
 
 .modal-skills .theli {
@@ -59,16 +67,19 @@
   flex-wrap: wrap;
   margin: 10px;
   justify-content: center;
+  width: 100%;
 }
 
 .headlineText {
   width: 60%;
   padding-right: 10px;
   padding-left: 10px;
+  margin-top: 27px;
 }
 
 .headlineList {
   width: 35%;
+  margin-top: 27px;
 }
 
 .modal-lang1 {
@@ -84,6 +95,7 @@
 
 .flex-modal-button {
   display: flex;
+  margin-top: 13px;
 }
 
 .desktop-modal-btn {
@@ -96,7 +108,7 @@
   border: 1px solid #6070ff;
   justify-content: center;
   align-items: center;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
 .desktop-modal-btn:hover {
@@ -111,10 +123,6 @@
   height: 20px;
 }
 
-.modal-body {
-  width: 100%;
-}
-
 .card-modal-child-img {
   margin: auto;
   text-align: center;
@@ -123,7 +131,7 @@
 .card-modal-child-img img {
   width: 100%;
   margin: auto;
-  height: 470px;
+  height: 520px;
 }
 
 .modal-close-icon {
@@ -133,24 +141,11 @@
   margin-top: 3px;
 }
 
-.modal-skills {
-  margin: -12px;
-  padding: 0;
-}
-
 .mobile-btn-parent {
   padding: 20px;
   width: 50%;
   margin-right: 0;
 }
-
-/* .mobile-btn-parent a {
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-} */
 
 .desktop-modal-btn-icon {
   width: 15px;
@@ -195,19 +190,16 @@
     font-size: 11px;
     margin: 2px;
     padding: 1px;
-    border-radius: 6px
-  }
-
-  .desktop-modal-btn {
+    border-radius: 6px;
     width: 100%;
   }
 
-  .desktop-modal-btn p{
-    font-size: 9px;
+  .desktop-modal-btn p {
+    font-size: 12px;
   }
 
-  .desktop-modal-btn img{
-    width: 12px;
+  .desktop-modal-btn img {
+    width: 15px;
     margin: 3px;
   }
 
@@ -235,7 +227,7 @@
     width: 55%;
     padding-top: 20px;
   }
-  
+
   .headlineList {
     width: 45%;
     padding-top: 20px;
