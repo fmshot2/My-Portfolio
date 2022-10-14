@@ -423,12 +423,12 @@
           <p class="contact-text">if you have an application you are interested in developing,
             a feature that you need built or a project that needs coding.i'd love to help with it
           </p>
-          <form action="https://formspree.io/f/xeqdoedo" method="POST">
+          <form action="https://formspree.io/f/xqkjqrqp" id="id-of-form" method="POST">
             <ul>
               <li><input class="input-for-name" required placeholder="Alex Usifo" maxlength="30"
                     type="text" name="name">
               </li>
-              <li><input class="input-for-name" required placeholder="ololadeshot@gmail.com" type="email"
+              <li><input id="email-field" class="input-for-name" required placeholder="ololadeshot@gmail.com" type="email"
                     name="email">
               </li>
               <li><textarea id="msg" class="input-for-textarea" required maxlength="500" rows="15"
@@ -437,6 +437,7 @@
                 <button class="mobile-form-button" type="submit">Get In Touch</button>
               </li>
             </ul>
+            <p id="message" class="error_notification"></p>
           </form>
         </div>
        </div>
@@ -445,6 +446,7 @@
   </div>
 
   <script src="modal.js"></script>
+  <script src="contact.js"></script>
   <script src="navbar.js"></script>
 </body>
 </html>
