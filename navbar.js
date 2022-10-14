@@ -8,14 +8,13 @@ const theProjects = document.querySelector('.projects');
 const about = document.querySelector('.about');
 const contact_me = document.querySelector('.contact-form');
 
-const projects = document.querySelector('#portfolio');
-const contact = document.querySelector('#contact-me');
-const aboutId = document.querySelector('#about-me');
-
-
-
-hamburger.addEventListener('click', () => {
-  myHamburger.classList.toggle('active');
+const portfolio = document.querySelector('#portfolio');
+portfolio.addEventListener('click', () => {
+  const hamburger = document.querySelector('.hamburger');
+  const headerItems = document.querySelector('.header-items');
+  const imgdiv = document.querySelector('.imgdiv');
+  const headerBrand = document.querySelector('.headerBrand');
+  hamburger.classList.toggle('active');
   headerItems.classList.toggle('active');
   theProjects.classList.toggle('active');
   about.classList.toggle('active');

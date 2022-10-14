@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
     <script src="https://kit.fontawesome.com/c5af90d277.js" crossorigin="anonymous"></script>
     <title>My Complete Portfolio</title>
 </head>
@@ -42,10 +43,94 @@
           </ul>
         </nav>
       </header>
+
+      <div id="modal-container">
+        <div id="modal">
+          <div class="shows-mobile-card">
+            <section class="">
+              <div class="card-modal-child">
+                <div class="card-modal-child-content">
+                  <div class="title">
+                    <div class="modal-headers">
+                      <h1 class="modal-headlineTitle" id="name">Tonic</h1>
+                      <i class="fa fa-times modal-close-icon" 
+                      id="close-btn"
+                      aria-hidden="true"></i>
+                      
+                    </div>
+                    <ul class="items modal-skills">
+                      <li class="theli">
+                        <a class="item1 mobile-item1">CANOPY</a>
+                      </li>
+                      <li class="dot theli"></li>
+                      <li class="theli">
+                        <a class="item2 mobile-item2">Front End Dev</a>
+                      </li>
+                      <li class="dot theli"></li>
+                      <li class="theli">
+                        <a class="item3 mobile-item3">2022</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <div class="card-modal-child-img">
+                      <img
+                        src="assets/Snapshoot2.png"
+                        class="bg-modal"
+                        id="image"
+                        alt=""
+                      />
+                    </div>
+                    <p class="headlineText" id="description">
+                      A daily selection of privately personalised re A daily selection of privately personalised read A daily selection of privately personalised read
+
+                    </p>
+                    <div class="headlineList">
+                      <ul class="lang modal-lang1">
+                        <li class="lang1">
+                            <a href="" id="technology1">html</a>
+                        </li>
+                        <li class="lang1">
+                            <a href="#" id="technology2">css</a>
+                        </li>
+                        <li class="lang1">
+                            <a href="" id="technology3">javascript</a>
+                        </li>
+                      </ul>
+                      <div class="flex-modal-button">
+                          <a href="" class="desktop-modal-btn" id="live">
+                            <p class="p">See Live</p>
+                            <img
+                                  src="assets/Icons/modalicon1.png"
+                                  class="desktop-modal-btn-icon"
+                                  alt=""
+                                />
+                            </a>
+                          <a href="" class="desktop-modal-btn" id="source"
+                            ><p class="p">
+                              See Source</p>
+                              <img
+                                  src="assets/Icons/modalicon2.png"
+                                  class="desktop-modal-btn-icon"
+                                  alt=""
+                                />
+                            </p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
       <section class="imgdiv">
         <div class="banner-title">
           <h1 class="banner-title-headline">I'm Femi, Glad to see you!</h1>
-          <p class="banner-title-text">I'm a full stack Software developer. I have experience in building
+          <p class="banner-title-text">I'm a Full Stack Software developer. I have experience in building
             e-commerce platforms, payment system integrations and social network applications.
             Please check out some of my works below.</p>
           <div>
@@ -121,7 +206,7 @@
                 </li>
             </ul>
             <div class="resume">
-                <button>See Project</button>
+                <button class="open-modal" id="1">See Project</button>
             </div>
           </div>
         </div>
@@ -167,7 +252,7 @@
               </li>
             </ul>
             <div class="resume">
-              <button>See Project</button>
+              <button class="open-modal" id="2">See Project</button>
             </div>
           </div>
         </div>
@@ -209,7 +294,7 @@
                   </li>
                 </ul>
                 <div class="resume">
-                  <button>See Project</button>
+                  <button class="open-modal" id="3">See Project</button>
                 </div>
             </div>
         </div>
@@ -255,7 +340,7 @@
             </li>
         </ul>
         <div class="resume">
-            <button>See Project</button>
+            <button class="open-modal" id="4">See Project</button>
         </div>
         </div>
         </div>
@@ -357,6 +442,7 @@
      </section>
   </div>
 
+  <script src="modal.js"></script>
   <script src="navbar.js"></script>
 </body>
 
