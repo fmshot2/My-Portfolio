@@ -4,6 +4,7 @@
   font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   scroll-behavior: smooth;
 }
+
 #modal-container {
   display: none;
   position: fixed;
