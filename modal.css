@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
+* {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
 #modal-container {
   display: none;
   position: fixed;
@@ -29,8 +33,9 @@
 
 #close-btn {
   cursor: pointer;
-  font-size: 3rem;
-  color: #f00;
+  font-size: 1.5rem;
+  color: rgb(10, 8, 8);
+  margin: 0.5em;
 }
 
 .modal-headers {
@@ -40,10 +45,14 @@
   width: 100%;
 }
 
+.modal-headlineTitle {
+  margin-left: 1.1em;
+}
+
 .modal-skills {
   display: flex;
   align-items: center;
-  margin: -12px;
+  margin-left: 1.5em;
   padding: 0;
 }
 
@@ -64,10 +73,12 @@
   width: 60%;
   padding-right: 10px;
   padding-left: 10px;
+  margin-top: 27px;
 }
 
 .headlineList {
   width: 35%;
+  margin-top: 27px;
 }
 
 .modal-lang1 {
@@ -83,6 +94,7 @@
 
 .flex-modal-button {
   display: flex;
+  margin-top: 13px;
 }
 
 .desktop-modal-btn {
@@ -118,7 +130,7 @@
 .card-modal-child-img img {
   width: 100%;
   margin: auto;
-  height: 470px;
+  height: 520px;
 }
 
 .modal-close-icon {
