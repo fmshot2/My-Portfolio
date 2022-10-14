@@ -18,4 +18,5 @@ function fetch_stored_data() {
   document.getElementById('email-field').value = fetched_data[0].email;
   document.querySelector('.input-for-textarea').value = fetched_data[0].comment;
 }
-// local_form.addEventListener('submit', save_in_local_storage());
+
+window.addEventListener('DOMContentLoaded', fetch_stored_data()); 
