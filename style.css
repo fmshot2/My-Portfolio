@@ -612,6 +612,14 @@ input {
   background-color: #6070ff;
 }
 
+.error_notification {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(170, 22, 22);
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     padding-left: 2em;
@@ -831,5 +839,25 @@ input {
 
   .input-for-textarea {
     margin-bottom: 1em;
+  }
+
+  .center {
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+
+  #message {
+    color: white;
+    height: 40px;
+    width: 100%;
   }
 }
